@@ -17,7 +17,7 @@ function pageLoad() {
 
         function iEvent(i) {
             return document.getElementsByTagName('h3')[i].addEventListener('click', function() {
-                alert('I accuse ' + friends[i % friends.length] + ', with the ' + weaponName[i % weaponName.length] + ' in the ' + locationName[i % locationName.length] + '!')
+                alert('I accuse ' + friends[i % friends.length] + ', with the ' + weaponName[i % weaponName.length] + ', in the ' + locationName[i % locationName.length] + '!')
             })
         };//adds click function with text
     }
